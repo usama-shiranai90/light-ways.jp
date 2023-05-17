@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "build-css": "tailwindcss build -i resources/css/app.css -o public/css/Tailwind.css",
+        "master-watcher": "tailwindcss build -i resources/css/app.css -o public/css /Tailwind.css --watch"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.7",
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.2",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vite": "^4.0.0",
+        "postcss-import": "^14.1.0"
+    },
+    "name": "light-ways.jp",
+    "description": "Navigating the Japanese Car Market for Buying and Selling with ease",
+    "version": "1.0.0",
+    "main": "vite.config.js",
+    "dependencies": {
+        "alpinejs": "^3.10.2",
+        "tailwindcss": "^2.2.16",
+        "watch": "^1.0.2"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
